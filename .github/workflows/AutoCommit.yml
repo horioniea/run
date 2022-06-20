@@ -28,7 +28,7 @@ jobs:
           git config --local user.name "jujorease"
           git add -A
           
-          arr[0]="Sync... Machine"
+          arr[0]="Synchronize"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
